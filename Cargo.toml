@@ -1,0 +1,11 @@
+[package]
+name = "harpoon"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+ureq = "2.9"
+serde_json = "1.0"
